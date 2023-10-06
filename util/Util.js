@@ -5,6 +5,7 @@ let config;
 try {
   config = require("../config.json");
 } catch (error) {
+  console.log("error",error)
   config = null;
 }
 
